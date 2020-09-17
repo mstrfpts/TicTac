@@ -1,0 +1,42 @@
+.RootContainer {
+  height: 100vh;
+  background-color: darkgray;
+}
+.MatrixContainer {
+  position: absolute;
+  left: 32%;
+  top: 22%;
+}
+
+.Matrix {
+  display: flex;
+  width: 150px;
+  flex-wrap: wrap;
+}
+
+.Button {
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  font-weight: 1000;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.X {
+  color: blue;
+}
+
+.O {
+  color: red;
+}
+
+.Winner {
+  margin: 20px 0 0 -15px;
+  font-size: xxx-large;
+}
+
+.Next {
+  margin: 20px 0 0 10px;
+  font-size: large;
+  font-weight: bold;
+}
